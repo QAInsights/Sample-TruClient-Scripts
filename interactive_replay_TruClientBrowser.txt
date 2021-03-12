@@ -1,0 +1,14 @@
+Virtual User Script started at : 2021-03-11 19:02:16
+TruClient Replay (build 0248) for LoadRunner Professional 2021.0.0, build 0371. OS: Windows 10, Browser: TruClient Browser 77.0.1.0, initialized on 2021/03/11 at 19:02:16 (1615507336.072s)
+Running Vuser...
+Starting iteration 1.
+t=00001814ms: Step 1: Navigate to "https://onlineboutique.dev/" started    [MsgId: MMSG-205180]
+t=00003370ms: Step 1: Navigate to https://onlineboutique.dev/ successfully completed with End Event "Document Loaded"    [MsgId: MMSG-205180]
+t=00003382ms: Step 2: Evaluate JavaScript code var linkCount = document...nt[randomLink]); started    [MsgId: MMSG-205180]
+t=00003607ms: Step 2: Evaluate JavaScript code var linkCount = document...nt[randomLink]); successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00004118ms: Step 3: Click on Random Product link started    [MsgId: MMSG-205180]
+t=00004887ms: Step 3: Click on Random Product link successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00005671ms: Step 4: Select 4 from Quantity listbox started    [MsgId: MMSG-205180]
+Ending Vuser...
+t=00012543ms: Step 4: Select 4 from Quantity listbox was stopped    [MsgId: MMSG-205180]
+Vuser Terminated.
